@@ -40,12 +40,12 @@ const anagrams =(s1, s2) =>{
     console.log("OG count");
     console.log(count);
 
-    // for the next step we cannot use an quality checker because 
+    // for the next step we cannot use an equality checker because 
     // in java that will only be acessing a reference in memory 
     // not the actual keys or values 
 
     // now iterate through s2 and reduce from count of char 
-    // if the values are at zero true else false
+    // IFF the values are at zero true else false
 
     for (let char of s2){
         // check if char of s2 is in char of s1
