@@ -3,8 +3,8 @@
 const evenElemnts = (arr)=>{
     // initialize loop 
     for(let i=0; i<arr.length; i++){
-        let index = arr[i];
-        if (index % 2 !==0 ){
+        let element = arr[i];
+        if (element % 2 !==0 ){
             return false;
         }
     }
